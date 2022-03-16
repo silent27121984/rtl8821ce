@@ -92,6 +92,7 @@ struct pci_device_id rtw_pci_id_tbl[] = {
 	{PCI_DEVICE(PCI_VENDER_ID_REALTEK, 0xC821), .driver_data = RTL8821C},
 	{PCI_DEVICE(PCI_VENDER_ID_REALTEK, 0xC82A), .driver_data = RTL8821C},
 	{PCI_DEVICE(PCI_VENDER_ID_REALTEK, 0xC82B), .driver_data = RTL8821C},
+    {PCI_DEVICE(PCI_VENDER_ID_REALTEK, 0xB821), .driver_data = RTL8821C},  /* Add TP-Link AC600 Archer T2E(EU) Ver:1.0 */
 #endif
 
 	{},
